@@ -124,13 +124,6 @@ npx expo start
 
 Escaneie o QR Code com o app Expo Go ou execute em um emulador.
 
----
-
-## ⚠️ Observações
-
-- **Persistência**: o estado das listas (`watchList`, `watched`) atualmente vive em memória via Context API. O módulo `storage.js` já oferece a base para persistência via AsyncStorage; integrá-lo ao `GlobalContext` (carregar no mount e salvar a cada alteração) faria as listas sobreviverem ao fechamento do app.
-
----
 
 ## 👤 Autor
 
